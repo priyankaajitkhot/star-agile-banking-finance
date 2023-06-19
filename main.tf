@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAZXNLVLF64P7TAO6R"
-  secret_key = "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"
 }
 
 resource "aws_instance" "my_ec2_instance" { 
@@ -10,7 +8,7 @@ resource "aws_instance" "my_ec2_instance" {
  key_name = "devops" 
   
  tags ={ 
- name="Terraform hands-on" 
+ name="Terraform_handson" 
 } 
    user_data = <<-EOF
     #!/bin/bash
