@@ -17,4 +17,4 @@
     shell: docker rm $(docker ps -a -q)
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8085:8081 priyankaajitkhot/mycontainer:latest
+    command: docker run -itd -p 8090:8081 priyankaajitkhot/mycontainer:latest
