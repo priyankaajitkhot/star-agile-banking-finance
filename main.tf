@@ -8,7 +8,7 @@ resource "aws_instance" "my_ec2_instance" {
  key_name = "devops" 
   
  tags ={ 
- name="Terraform_handson" 
+ name="Production_server" 
 } 
    user_data = <<-EOF
     #!/bin/bash
